@@ -1,0 +1,108 @@
+.App {
+  font-family: sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.studentDashboardHeader {
+  margin: 20px;
+}
+
+.studentDashboardHeader > h5 {
+  background-color: #777;
+  padding: 5px;
+  text-align: bottom;
+}
+
+.StudentDashboard {
+  margin-left: 20px;
+}
+
+.MarksSection {
+  display: flex;
+  background-color: antiquewhite;
+  padding: 10px;
+  margin-top: 20px;
+  align-content: center;
+  justify-content: space-evenly;
+
+  font-size: 15px;
+  font-weight: 400px;
+  text-transform: capitalize;
+}
+
+.marks {
+  padding-left: 3px;
+  padding-right: 3px;
+  background-color: blue;
+  color: white;
+  margin-left: 2px;
+}
+
+.AddStudentDetails {
+  display: flex;
+  align-content: center;
+  justify-items: center;
+
+  margin-top: 20px;
+
+  background-color: rgb(120, 145, 167);
+  padding: 10px 0;
+}
+
+#StudentName,
+#StudentMarks {
+  margin-top: 0 2px;
+  outline: 0px;
+}
+#StudentName:focus,
+#StudentMarks:focus {
+  box-shadow: 0 0 5px blue;
+}
+
+input[type="number"]:hover::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"]:focus::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  width: 100px;
+}
+
+.DetailsTable {
+  background-color: #151c20;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+
+  width: 100%;
+}
+
+th,
+td {
+  text-align: center;
+
+  border: 1px solid rgb(105, 98, 98);
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(102, 102, 78);
+}
+
+#NoData {
+  padding: 10px;
+  background-color: rgb(66, 66, 39);
+  text-align: center;
+  margin: 1px;
+  color: white;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
