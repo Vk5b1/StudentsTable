@@ -1,8 +1,9 @@
 import "./styles.css";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Marks from "./Components/Marks";
 import AddStudent from "./Components/AddStudent";
 import DataTable from "./Components/StudentRecordTable";
+import Axios from "axios";
 
 export default function App() {
   const [StudentData, setStudentData] = useState([
